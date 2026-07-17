@@ -1,0 +1,76 @@
+{
+  "dataset_statistics": {
+    "total_samples": 12000,
+    "training_samples": 9600,
+    "testing_samples": 2400,
+    "num_features": 5,
+    "feature_columns": [
+      "savings_ratio",
+      "average_monthly_income",
+      "income_consistency",
+      "total_expense",
+      "transaction_frequency"
+    ],
+    "train_class_distribution": {
+      "class_0": 3174,
+      "class_1": 6426
+    },
+    "test_class_distribution": {
+      "class_0": 793,
+      "class_1": 1607
+    }
+  },
+  "evaluation_metrics": {
+    "accuracy": 0.74875,
+    "precision": 0.757172131147541,
+    "recall": 0.9197261978842564,
+    "f1_score": 0.8305703849395898,
+    "roc_auc": 0.7767314499694353,
+    "pr_auc": 0.8648281900019354,
+    "balanced_accuracy": 0.6609980295852556,
+    "matthews_corrcoef": 0.3887014626818666,
+    "log_loss": 0.5078619718551636,
+    "brier_score": 0.17003685235977173
+  },
+  "confusion_matrix": {
+    "true_negatives": 319,
+    "false_positives": 474,
+    "false_negatives": 129,
+    "true_positives": 1478
+  },
+  "classification_report": {
+    "0": {
+      "precision": 0.7120535714285714,
+      "recall": 0.40226986128625475,
+      "f1-score": 0.5141015310233682,
+      "support": 793.0
+    },
+    "1": {
+      "precision": 0.757172131147541,
+      "recall": 0.9197261978842564,
+      "f1-score": 0.8305703849395898,
+      "support": 1607.0
+    },
+    "accuracy": 0.74875,
+    "macro avg": {
+      "precision": 0.7346128512880562,
+      "recall": 0.6609980295852556,
+      "f1-score": 0.6723359579814789,
+      "support": 2400.0
+    },
+    "weighted avg": {
+      "precision": 0.7422642070403981,
+      "recall": 0.74875,
+      "f1-score": 0.7260038011247716,
+      "support": 2400.0
+    }
+  },
+  "confidence_statistics": {
+    "average_confidence": 0.5336006283760071,
+    "min_confidence": 0.00046575069427490234,
+    "max_confidence": 0.9988521933555603,
+    "median_confidence": 0.5514842867851257
+  },
+  "misclassified_count": 603,
+  "misclassified_rate": 0.25125
+}

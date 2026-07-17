@@ -1,0 +1,6 @@
+feature,shap_importance
+average_monthly_income,0.55817646
+savings_ratio,0.4199668
+income_consistency,0.3242792
+total_expense,0.14819765
+transaction_frequency,0.040810242

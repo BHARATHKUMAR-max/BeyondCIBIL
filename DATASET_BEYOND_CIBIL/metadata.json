@@ -1,0 +1,6 @@
+{
+  "customers": 1200,
+  "transactions": 60000,
+  "feature_rows": 14400,
+  "label_rows": 14400
+}
