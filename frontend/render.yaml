@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: beyond-cibil-frontend
+    env: static
+    buildCommand: npm install && npm run build
+    publishDir: dist
+    envVars:
+      - key: VITE_API_BASE_URL
+        value: https://beyondcibil.onrender.com
