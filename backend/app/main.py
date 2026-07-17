@@ -28,7 +28,13 @@ app = FastAPI(
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5175", "http://localhost:5173", "http://localhost:5174"],
+    allow_origins=[
+        "http://localhost:5175",
+        "http://localhost:5173",
+        "http://localhost:5174",
+        "https://beyond-cibil-orcin.vercel.app",
+        "https://beyondcibil.onrender.com"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
